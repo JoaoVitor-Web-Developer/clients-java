@@ -1,0 +1,10 @@
+application:
+        name: clients
+
+spring:
+    data:
+        mongodb:
+            uuid-representation: standard
+            database: db_clients
+            uri: mongodb://localhost:27017/
+
